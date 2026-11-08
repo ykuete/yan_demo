@@ -2,6 +2,8 @@
 add_library(quadm_core STATIC
     fieldpolicy.h
     fieldpolicy.cpp
+    metadatadocument.h
+    metadatadocument.cpp
     result.h
     tags.h
     tags.cpp
