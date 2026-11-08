@@ -1,5 +1,7 @@
 # quadm_core: the application's vocabulary. Qt Core only - no widgets, no processes, no files.
 add_library(quadm_core STATIC
+    fieldpolicy.h
+    fieldpolicy.cpp
     result.h
     tags.h
     tags.cpp
